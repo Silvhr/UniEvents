@@ -100,9 +100,10 @@ html {
     border-bottom: 2px solid #333F48;
   }
 .event{
+    float: left;
     width: 300px;
     height: 70px;
-    margin: auto;
+    margin-left:30px;
     margin-top: 10px;
     border: 2px solid #333F48;
     text-align: center;
@@ -120,5 +121,25 @@ html {
     border: 3px solid #333F48;
     padding-bottom: 20px;
     border-radius: 24px;
-    background-color:#BF5700 ;
+    background-color:#BF5700;
+}
+
+.upvote{
+    float: right;
+    color:white;
+    width: 50px;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.downvote{
+    float:right;
+    color: white;
+    width:50px;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
 }
