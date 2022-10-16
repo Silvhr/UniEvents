@@ -5,7 +5,7 @@ html {
 }
 .calendar {
     float: left;
-    padding-top: 60px;
+    padding-top: 65px;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
@@ -167,6 +167,6 @@ html {
     height: 40px;
     width: 80px;
     border: white;
-    margin-right: 20px;
+    margin-right: 40px;
 
 }
