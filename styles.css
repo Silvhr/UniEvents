@@ -3,12 +3,13 @@ html {
     font-family: Helvetica, Arial, sans-serif;
     border-collapse: separate;
 }
-
 .calendar {
+    float: left;
+    padding-top: 65px;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    width: 50vw;
+    width: 60vw;
     background-color: white;
     overflow: hidden;
     box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
@@ -30,7 +31,6 @@ html {
 
 .arrow {
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: white;
     border-radius: 24px;
@@ -70,7 +70,7 @@ html {
     height: 10vh;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 60vw;
     font-weight: bold;
     font-size: 20px;
 }
