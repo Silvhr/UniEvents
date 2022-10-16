@@ -5,6 +5,7 @@ html {
 }
 .calendar {
     float: left;
+    left: 0;
     padding-top: 55px;
     display: flex;
     flex-direction: column;
