@@ -146,6 +146,7 @@ html {
 .navbar {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     height: 65px;
     background-color:#bf5700; /*could also use gray #333F48 */
